@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clicked the Highlighted Button in 5s"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/levelTextView"
+        android:text="Level 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score: "
+        android:textSize="30sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center" />
+
+    <!-- First row of buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 1"
+            android:layout_weight="1"
+            android:onClick="button1_Pressed"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 2"
+            android:layout_weight="1"
+            android:onClick="button2_Pressed"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 3"
+            android:layout_weight="1"
+            android:onClick="button3_Pressed"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 4"
+            android:layout_weight="1"
+            android:onClick="button4_Pressed"/>
+
+    </LinearLayout>
+
+    <!-- Second row of buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 5"
+            android:layout_weight="1"
+            android:onClick="button5_Pressed"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 6"
+            android:layout_weight="1"
+            android:onClick="button6_Pressed"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 7"
+            android:layout_weight="1"
+            android:onClick="button7_Pressed"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 8"
+            android:layout_weight="1"
+            android:onClick="button8_Pressed"/>
+
+    </LinearLayout>
+
+    <!-- Third row of buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 9"
+            android:layout_weight="1"
+            android:onClick="button9_Pressed"/>
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 10"
+            android:layout_weight="1"
+            android:onClick="button10_Pressed"/>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 11"
+            android:layout_weight="1"
+            android:onClick="button11_Pressed"/>
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 12"
+            android:layout_weight="1"
+            android:onClick="button12_Pressed"/>
+
+
+    </LinearLayout>
+
+    <!-- Forth row of buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 13"
+            android:layout_weight="1"
+            android:onClick="button13_Pressed"/>
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 14"
+            android:layout_weight="1"
+            android:onClick="button14_Pressed"/>
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 15"
+            android:layout_weight="1"
+            android:onClick="button15_Pressed"/>
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintDimensionRatio="1:1"
+            android:text="Button 16"
+            android:layout_weight="1"
+            android:onClick="button16_Pressed"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
